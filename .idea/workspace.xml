@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42fd458a-1322-47ff-b146-a859eb5a18c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Fapor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/OpenSans-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/OpenSans-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/OpenSans-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/OpenSans-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/Raleway-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/Raleway-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/Raleway-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/Raleway-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/Raleway-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Courteney1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/David3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Layer 23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Matt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test_light_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Wi6BCU62nobVok016bGNI6LMkR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42fd458a-1322-47ff-b146-a859eb5a18c7" name="Default Changelist" comment="" />
+      <created>1579619930233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579619930233</updated>
+      <workItem from="1579619933659" duration="1405000" />
+      <workItem from="1579621408059" duration="3381000" />
+      <workItem from="1579868491588" duration="6454000" />
+      <workItem from="1579876321258" duration="1819000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="397" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1579868501049">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="397" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1579868501049" />
+  </component>
+</project>

@@ -1,0 +1,502 @@
+@font-face{
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Regular.eot');
+    src: url('../font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url("../font/OpenSans-Regular.woff2") format('woff2'),
+    url("../font/OpenSans-Regular.woff") format('woff'),
+    url("../font/OpenSans-Regular.ttf") format('truetype'),
+    url('../font/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Bold.eot');
+    src: url('../font/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/Raleway-Bold.woff2') format('woff2'),
+    url('../font/Raleway-Bold.woff') format('woff'),
+    url('../font/Raleway-Bold.ttf') format('truetype'),
+    url('../font/Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{ background-color: #24282f;
+    padding-top: 29px}
+.container{
+    max-width: 1093px;
+    margin: auto;
+}
+.logo{
+    float: left;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+    display: inline-block;
+}
+header nav ul li{
+    display: inline-block;
+    float: right;
+    margin-left: 46px;
+    padding-top: 3px;
+    padding-bottom: 33px;
+}
+.container:after, header nav ul:after, .details:after, .central_footer:after, .content:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header nav ul li a{
+    color: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    padding: 0px 11px;
+}
+
+header nav ul li:after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+    bottom: -37px;
+
+}
+header nav ul li:hover:after{
+    background-color: #b5a263;
+}
+.about_as{
+    background-image: url(../images/test_light_02.png);
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 84px;
+}
+.top_block{
+    max-width: 1076px;
+    margin: auto;
+}
+.title{
+    font-size: 32px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+}
+.design_studio{
+    font-size: 11px;
+    color: #ffffff;
+    line-height: 19px;
+    font-family: 'Open Sans';;
+}
+
+.article_title, .article{
+    font-size: 19px;
+    color: #24282f;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 122px;
+}
+.article_title:after{
+    content: "";
+    display: block;
+    width: 61px;
+    height: 3px;
+    background-color: #b5a263;
+    margin: 10px auto 27px;
+}
+.Management{
+    max-width: 890px;
+    margin: auto;
+}
+article{
+    max-width: 246px;
+    display: inline-block;
+}
+
+.soc{
+    background-color: #dedede;
+    width: 28px;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 28px;
+    float: right;
+}
+.soc i{
+    font-size: 12px;
+    color: white;
+}
+.management .user .details .soc{
+    background-color: #dedede;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 5px;
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+
+}
+
+
+.Management .user .details .soc.facebook:before{
+    content: "\f39e";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+
+}
+
+.Management .user .details .soc.twitter:before{
+    content: "\f099";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+
+}
+.Management .user .details .soc.google:before {
+    content: "\f0d5";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+}
+.name{
+    font-size: 13px;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color: #232323;
+}
+
+.position{
+    font-size: 11px;
+    font-family: 'Open Sans';
+    color: #b5a263;
+    line-height: 16px;
+    float: left;
+}
+.Marketing_Manager:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.Marketing{
+    display: inline-block;
+}
+.Creative{
+    display: inline-block;
+}
+.Management{
+    margin-bottom: 98px;
+    text-align: center;
+    position: relative;
+}
+.Management article .owl-dots .owl-dot span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #b5a263;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+.Management article .owl-dots .owl-dot.active span{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+}
+.Management article .owl-dots{
+    position: absolute;
+    width: 100%;
+}
+.Management article .owl-dot{
+    outline: none;
+}
+.reviews{
+    background-color: #f7f7f7;
+    padding-top: 95px;
+    padding-bottom: 94px;
+}
+.article:after{
+    content: "";
+    display: block;
+    width: 62px;
+    height: 3px;
+    background-color: #24282f;
+    margin: auto;
+    margin-top: 23px;
+    margin-bottom: 49px;
+}
+.owl-carousel .layer{
+    text-align: center;
+}
+.fa-chevron-left{
+    float: left;
+}
+.fa-chevron-right{
+    float: right;
+}
+.comment{
+    font-size: 11px;
+    font-family: 'Open Sans';
+    color: #000000;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 36px;
+}
+.general_name{
+    font-size: 13px;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color: #b5a263;
+    text-align: center;
+    line-height: 25px;
+}
+.employees{
+    font-size: 11px;
+    font-family: 'Open Sans';
+    color: #000000;
+    text-align: center;
+}
+.bottom_panel{
+    background-color: #2b2f35;
+    padding-top: 62px;
+}
+.bottom_panel .central_footer{
+    max-width: 895px;
+    margin: auto;
+}
+.bottom_panel .central_footer h4{
+    font-size: 11px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #b5a263;
+    margin-bottom: 26px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.bottom_panel .central_footer p{
+    font-size: 11px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: #6e7279;
+    line-height: 20px;
+}
+.bottom_panel .central_footer form{
+    font-size: 11px;
+    color: #6e7279;
+}
+.bottom_panel .central_footer form input{
+    display: block;
+    width: 237px;
+    height: 30px;
+    box-sizing: border-box;
+    background: #2b2f35;
+    border: 1px solid #5f6369;
+    margin-bottom: 8px;
+}
+.bottom_panel .central_footer form button{
+    background: #b5a263;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 237px;
+    height: 30px;
+    border: none;
+}
+.central_footer .info{
+    display: inline-block;
+    float: left;
+    margin-right: 137px;
+    max-width: 231px;
+    margin-bottom: 50px;
+}
+.central_footer .info:last-of-type{
+    float: right;
+    margin-right: 0px;
+}
+.central_footer .info .probel{
+    margin-bottom: 24px;
+}
+.footer2{
+    background: #24282f;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #42464c;
+}
+.footer2 .content{
+    max-width: 895px;
+    margin: auto;
+}
+.footer2 .content p{
+    font-size: 9px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: #6e7279;
+    display: block;
+    margin-top: 12px;
+    float: left;
+}
+.footer2 .content .soc{
+    background: #24282f;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #6e7279;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 5px;
+    text-decoration: none;
+    float: right;
+}
+
+.footer2 .content .soc.facebook:before{
+    content: "\f39e";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: #6e7279;
+    font-style: normal;
+    font-variant: normal;
+}
+.footer2 .content .soc.twitter:before{
+    content: "\f099";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: #6e7279;
+    font-style: normal;
+    font-variant: normal;
+}
+.footer2 .content .soc.google:before{
+    content: "\f0d5";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: #6e7279;
+    font-style: normal;
+    font-variant: normal;
+}
+.footer2 .content .soc.dribbble{
+    background: #b5a263;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    line-height: 28px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.footer2 .content .soc.dribbble:before{
+    content: "\f434";
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+}
+.owl-nav .owl-prev:before {
+    content: "\f054";
+    color: #FFFFFF;
+}
+.owl-nav .owl-prev{
+    font-family: 'Font Awesome 5 Free'!important;
+    font-weight: 900!important;
+}
+.ui-dialog{
+    max-width: 750px!important;
+    width: 100%!important;
+    padding: 0 0 165px 0;
+    text-align: center;
+    background-color: #fbfbfb;
+    border-radius: 0px;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    display: none;
+}
+.ui-dialog .ui-widget-header{
+    background: #000000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.ui-dialog form{
+    padding-top: 40px;
+    padding-bottom: 66px;
+}
+form .email{
+    display: inline-block;
+    width: 385px;
+    height: 60px;
+    box-sizing: border-box;
+    background: white;
+    outline: none;
+    border: 1px #b7b7b7;
+    margin-bottom: 40px;
+}
+form .enter{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-right: 52px;
+}
+form .send{
+    display: block;
+    width: 527px;
+    height: 60px;
+    background: #d5d5d5;
+    color: black;
+    border: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: auto auto 29px;
+}
+form p{
+    margin-bottom: 29px;
+    font-size: 24px;
+    text-transform: uppercase
+}
+form a{
+    display: block;
+    width: 527px;
+    height: 60px;
+    background: #4a68a8;
+    color: white;
+    border: none;
+    margin: auto;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 22px;
+}
+#opener{
+    display: block;
+    width: 130px;
+    height: 40px;
+    background: white;
+    color: #24282f;
+    border-radius: 10px;
+    border: solid 2px #7c7e82;
+    margin: auto;
+}
